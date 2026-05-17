@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>整租房源展示 | 三房家具家电齐全</title>
+    <meta
+      name="description"
+      content="三房整租房源展示，包含客餐厅、卧室、厨房、卫生间、阳台、租金面议和微信看房联系信息。"
+    >
+    <link rel="stylesheet" href="/styles.css">
+  </head>
+  <body>
+    <header class="site-header" aria-label="房源导航">
+      <a class="brand" href="#top">整租房源</a>
+      <nav class="nav-links" aria-label="页面导航">
+        <a href="#overview">概览</a>
+        <a href="#photos">照片</a>
+        <a href="#floorplan">户型</a>
+        <a href="#rent">租金</a>
+        <a href="#contact">联系</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-labelledby="heroTitle">
+        <div class="hero-media">
+          <img id="heroImage" src="/images/house/living-room-1.png" alt="明亮客餐厅">
+        </div>
+        <div class="hero-content">
+          <p class="eyebrow" id="listingStatus">价格面议 · 可约看房</p>
+          <h1 id="heroTitle">温馨三房整租，家具家电齐全</h1>
+          <p class="hero-copy" id="heroSummary">
+            客餐厅宽敞明亮，三间卧室配置完善，厨房、卫生间、阳台和洗衣区清晰可见，适合家庭或合租租客实地看房。
+          </p>
+          <div class="hero-actions">
+            <a class="primary-action" href="#contact">微信联系看房</a>
+            <a class="secondary-action" href="#photos">查看房间照片</a>
+          </div>
+        </div>
+      </section>
+
+      <section id="overview" class="section" aria-labelledby="overviewTitle">
+        <div class="section-heading">
+          <p class="eyebrow">快速了解</p>
+          <h2 id="overviewTitle">租客 30 秒看懂房源</h2>
+        </div>
+        <div id="overviewGrid" class="overview-grid"></div>
+      </section>
+
+      <section class="section two-column" aria-labelledby="highlightsTitle">
+        <div>
+          <p class="eyebrow">适合人群</p>
+          <h2 id="highlightsTitle">适合家庭、同事合租或长期稳定居住</h2>
+          <p class="body-copy">
+            房间数量充足，客餐厅和厨房都能满足日常生活。页面中的面积、楼层、朝向、小区名称等信息先做成可编辑占位，补充后即可直接发布。
+          </p>
+        </div>
+        <div id="featureList" class="feature-list"></div>
+      </section>
+
+      <section id="photos" class="section" aria-labelledby="photosTitle">
+        <div class="section-heading">
+          <p class="eyebrow">照片看房</p>
+          <h2 id="photosTitle">按空间查看真实房间</h2>
+        </div>
+        <div id="photoSections" class="photo-sections"></div>
+      </section>
+
+      <section id="floorplan" class="section split-panel" aria-labelledby="floorplanTitle">
+        <div>
+          <p class="eyebrow">户型图</p>
+          <h2 id="floorplanTitle">户型图照片预留位</h2>
+          <p class="body-copy">
+            后续拿到户型图后，只需要替换图片路径即可。这里建议放清晰户型图，并标注客厅、卧室、厨房、卫生间、阳台的位置。
+          </p>
+        </div>
+        <div class="placeholder-card" role="img" aria-label="户型图待补充">
+          <span class="placeholder-mark">户型图待补充</span>
+          <p>建议上传横版或方形户型图，方便租客快速判断房间关系。</p>
+        </div>
+      </section>
+
+      <section id="rent" class="section" aria-labelledby="rentTitle">
+        <div class="section-heading">
+          <p class="eyebrow">租金与入住</p>
+          <h2 id="rentTitle">价格面议，费用信息预留</h2>
+        </div>
+        <div id="rentGrid" class="rent-grid"></div>
+      </section>
+
+      <section class="section" aria-labelledby="amenitiesTitle">
+        <div class="section-heading">
+          <p class="eyebrow">配套设施</p>
+          <h2 id="amenitiesTitle">家具家电基本齐全</h2>
+        </div>
+        <div id="amenityList" class="amenity-list"></div>
+      </section>
+
+      <section id="contact" class="contact-section" aria-labelledby="contactTitle">
+        <div class="contact-copy">
+          <p class="eyebrow">联系看房</p>
+          <h2 id="contactTitle">微信扫码咨询，预约实地看房</h2>
+          <p>
+            可把微信二维码放在右侧预留位。租客扫码后可以直接询问具体租金、入住时间、押付方式和看房安排。
+          </p>
+        </div>
+        <div class="qr-card" aria-label="微信二维码预留位">
+          <div class="qr-placeholder">微信二维码</div>
+          <p>请替换为你的微信二维码图片</p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>房源信息以实地看房和双方确认为准。</p>
+    </footer>
+
+    <script src="/app.js" type="module"></script>
+  </body>
+</html>
